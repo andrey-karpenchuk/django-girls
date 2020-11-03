@@ -1,0 +1,34 @@
+# user configs
+.DS_Store
+**/*.*.user
+**.sln.DotSettings.user
+Application/CorsairHID.sln.DotSettings.user
+Application/.idea/*
+Application/cmake-build-*/
+
+
+.idea/*
+# build artifacts
+/Application/**/GeneratedFiles/
+/Application/**/Debug/
+/Application/**/Release/
+/Application/**/**/translations/*_*.qm
+/Applicaiton/Output/
+**/*-build/
+**/build-*/
+/venv/*
+
+# MSVS autocomplete db and debug db
+*.sdf
+*.suo
+*.opensdf
+/Application/*suo
+/Application/ipch/
+/Application/.vs/*
+
+# MS Office caches
+/Docs/**/~$*.docx
+
+# python cache
+*.pyc
+*.sqlite3
