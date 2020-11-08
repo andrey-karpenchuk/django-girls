@@ -19,3 +19,7 @@ python3 manage.py startapp blog
 python3 manage.py makemigrations blog
 
 python3 manage.py migrate blog
+
+python3 manage.py runserver
+
+python manage.py createsuperuser  (admin/1)
